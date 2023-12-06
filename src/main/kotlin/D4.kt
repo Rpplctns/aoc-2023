@@ -1,6 +1,6 @@
 import kotlin.math.pow
 
-fun main(args: Array<String>) {
+fun main() {
     val inputSize = 212
     val wins: List<Int> = List(inputSize) { readln() }
         .map { a -> a.split(":\\s+".toRegex())[1] }

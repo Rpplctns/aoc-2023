@@ -1,6 +1,6 @@
 import kotlin.math.max
 
-fun main(args: Array<String>) {
+fun main() {
     val inputSize = 100
     val data = List(inputSize) { readln() }
         .map {

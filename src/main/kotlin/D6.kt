@@ -9,7 +9,7 @@ fun calculate(a: Long, b: Long): Long {
     return x2 - x1 + 1
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val times = readln().split(":\\s+".toRegex())[1]
     val distances = readln().split(":\\s+".toRegex())[1]
     val timesSeparate = times.split("\\s+".toRegex()).map(String::toLong)

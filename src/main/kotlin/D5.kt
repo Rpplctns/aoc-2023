@@ -57,7 +57,7 @@ fun readRangeMapChunk(): RangeMap {
     return RangeMap(ranges)
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val data = readln()
         .split(":\\s+".toRegex())[1]
         .split(' ')

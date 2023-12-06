@@ -21,7 +21,7 @@ fun calculateSpelled(s: String): Int {
             listOf(lastSpelled, lastDigit).filterNotNull().maxBy { it.first }.second
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val inputSize = 1000
     var res1 = 0
     var res2 = 0
